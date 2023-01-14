@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Form</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script> -->
+
+</head>
+<body>
+    <div class="container">
+        <h2>New Employees</h2>
+        <form>
+        <div class="row">
+            <div class="column">
+                <h3>Enter Name</h3>
+                <input type="text" id="textName" required>
+            </div>
+            <div class="column">
+                <h3>Enter Profession</h3>
+                <input type="text" id="textProf" required>
+            </div>
+            <div class="column">
+                <h3>Enter Age</h3>
+                <input type="number" id="textAge" required>
+            </div>
+        </div>
+        <div>
+            <button type="submit" id="textSubmit" onclick="user()">Add User</button>
+        </div>
+    </form>
+        <p id="m"></p> <br>
+        <div>
+            <h3>Added Employees</h3>
+        </div>  
+        <table id="tb">
+            <p id="a">You have 0 Employees.</p>
+        </table>
+            
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
